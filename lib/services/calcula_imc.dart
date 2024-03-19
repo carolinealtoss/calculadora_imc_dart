@@ -7,15 +7,15 @@ class CalculaImc {
 
   static String getMessageResultImc(double valueImc) {
     if (valueImc < 18.5) {
-      return("Abaixo do peso");
+      return ("\nResultado -> Abaixo do peso");
     } else if (valueImc >= 18.5 && valueImc < 24.9) {
-      return("Peso normal");
+      return ("\nResultado -> Peso normal");
     } else if (valueImc >= 25 && valueImc < 29.9) {
-      return("Sobrepeso");
+      return ("\nResultado -> Sobrepeso");
     } else if (valueImc >= 30 && valueImc < 34.9) {
-      return("Obesidade grau 1");
+      return ("\nResultado -> Obesidade grau 1");
     } else if (valueImc >= 35 && valueImc < 39.9) {
-      return("Obesidade grau 2");
+      return ("\nResultado -> Obesidade grau 2");
     } else {
       return("Obesidade grau 3");
     }
