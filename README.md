@@ -1,2 +1,5 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# Calculadora IMC
+
+## Informações do Projeto:
+
+- Projeto desenvolvido em Dart (v3.2.6)
